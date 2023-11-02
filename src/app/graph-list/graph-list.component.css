@@ -1,0 +1,13 @@
+.graph-list{
+  width: 80%;
+  display: grid;
+  justify-items: end;
+  margin-top: 4rem;
+}
+.graph-list .items{
+  display: grid;
+  justify-items: end;
+  grid-auto-flow: column;
+  width: 20%;
+  margin-bottom: 3rem;
+}

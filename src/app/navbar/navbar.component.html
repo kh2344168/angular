@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="container-navbar">
+    <div class="items">
+      <div class="item item-top">
+        <img class="nav-icon" src="../../assets/images/navbar-icon/PMS.png" alt="">
+      </div>
+      <div class="item item-cinter">
+        <ul >
+          <li *ngFor="let imgItem of imgItems">
+            <img class="nav-icon" src="{{imgItem.imageUrl}}" alt="name">
+          </li>
+        </ul>
+      </div>
+      <div class="item item-bottom">
+        <img class="nav-icon" src="../../assets/images/navbar-icon/logout.png" alt="">
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
