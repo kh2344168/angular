@@ -1,0 +1,14 @@
+.chart{
+  width: 100%;
+}
+.chart .chart-container .chart-items .chart-item h3{
+  text-align: center;
+  margin-top: 27px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+.mychart{
+  font-size: 5px;
+}

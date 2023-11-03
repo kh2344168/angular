@@ -1,0 +1,32 @@
+.graph-list{
+  width: 95%;
+  display: grid;
+  justify-items: end;
+  margin-top: 4rem;
+}
+.graph-list .items{
+  display: grid;
+  justify-items: end;
+  grid-auto-flow: column;
+  width: 20%;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 20px;
+}
+.graph-list a {
+  text-decoration: none;
+  color: var(--font-color);
+  /* background: ; */
+  padding: 3px 22px;
+  border-radius: 20px;
+  width: 45px;
+  text-align: center;
+
+}
+.graph-list a.active {
+  text-decoration: none;
+  color: white;
+  background: var(--main-color) ;
+  padding: 3px 22px;
+  border-radius: 20px;
+}

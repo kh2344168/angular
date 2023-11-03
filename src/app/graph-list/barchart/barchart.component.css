@@ -1,0 +1,38 @@
+
+.my-chart{
+  font-size: 11px;
+  background-color: white;
+  width: 92%;
+  padding: 20px;
+  border-radius: 25px;
+  display: grid;
+  gap: 50px;
+  color: var(--font-color);
+  margin-top: 40px;
+}
+.my-chart .chart-bar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 60% 40%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  font-weight: 500;
+
+}
+.my-chart .chart-bar-items {
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: end;
+  height: 27px;
+  align-items: center;
+}
+.my-chart .chart-bar-items span {
+  height: 100%;
+}
+.my-chart .chart-bar-items span:first-child {
+  color:var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+.my-chart .chart-cont{
+  display: grid;
+    justify-items: center;
+}

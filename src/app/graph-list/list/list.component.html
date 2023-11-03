@@ -1,0 +1,37 @@
+<div class="list">
+  <div class="items" *ngFor="let myObject of myObjects">
+    <div class="item " >
+      <div class="items-title">
+        <div class="item-title icon ">
+          <span class="item-title point"></span>
+          <img src="{{myObject.img}}" alt="">
+        </div>
+        <div class="item-title name">
+          <span>  STATION NAME DUMMY</span>
+        </div>
+        <div class="item-title points">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <hr>
+      <div class="sales-v">
+          <div class="sv-item sales">
+            <span *ngFor="let date of myObject.array1">{{date}}</span>
+          </div>
+          <div class="sv-item value">
+              <span *ngFor="let date of myObject.array2">{{date}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- 
+<span>Total Sales</span>
+<span>62,721 m <sup>3</sup></span>
+<span>Compression State</span>
+<span>Compression</span>
+<span>Max Transaction / hour</span>
+<span>20</span> -->
